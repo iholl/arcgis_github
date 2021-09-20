@@ -29,9 +29,3 @@ for feature_layer in data_list:
 	export_geojson.download(save_path="fishable_data")
 	export_geojson.delete()
 	print("downloaded complete")
-
-
-
-
-
-
