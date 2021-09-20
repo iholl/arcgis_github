@@ -1,8 +1,6 @@
 name: arcgis to github
 
 on:
-  push:
-    branches: [ main ]
   schedule:
     - cron: '15 15 * * *'
 
