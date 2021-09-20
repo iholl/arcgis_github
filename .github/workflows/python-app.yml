@@ -24,6 +24,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install arcgis
     - name: Run Python Script
+      env:
+        ARCGIS_ONLINE_USERNAME: ${{ secrets.ARCGIS_ONLINE_USERNAME }}
+        ARCGIS_ONLINE_PASSWORD: ${{ secrets.ARCGIS_ONLINE_PASSWORD }}
       run: |
         python main.py
     - name: Commit and push if it changed
