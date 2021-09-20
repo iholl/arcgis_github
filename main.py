@@ -7,7 +7,7 @@ ARCGIS_ONLINE_USERNAME = os.environ['ARCGIS_ONLINE_USERNAME']
 ARCGIS_ONLINE_PASSWORD = os.environ['ARCGIS_ONLINE_PASSWORD']
 
 # get access to the fishable waters data and export the data to a GeoJson file in the arcgis online account
-gis = arcgis.GIS(url=None, username=ARCGIS_ONLINE_USERNAME, password="ARCGIS_ONLINE_PASSWORD")
+gis = arcgis.GIS(url=None, username=ARCGIS_ONLINE_USERNAME, password=ARCGIS_ONLINE_PASSWORD)
 data = gis.content.get("69327cd8775f4683aecc5cfd71bf3b77")
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
