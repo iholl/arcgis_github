@@ -4,6 +4,7 @@ from datetime import datetime
 
 # set secrets from github repo
 ARCGIS_ONLINE_USERNAME = os.environ['ARCGIS_ONLINE_USERNAME']
+ARCGIS_ONLINE_PASSWORD = os.environ['ARCGIS_ONLINE_PASSWORD']
 
 # get access to the fishable waters data and export the data to a GeoJson file in the arcgis online account
 gis = arcgis.GIS(url=None, username=ARCGIS_ONLINE_USERNAME, password="nd0wM@PS1!")
