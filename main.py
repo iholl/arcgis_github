@@ -1,11 +1,6 @@
-import os
 import arcgis
 from datetime import date
 from decouple import config
-
-# set secrets from github repo
-# ARCGIS_ONLINE_USERNAME = os.environ['ARCGIS_ONLINE_USERNAME']
-# ARCGIS_ONLINE_PASSWORD = os.environ['ARCGIS_ONLINE_PASSWORD']
 
 # set local env variables
 ARCGIS_ONLINE_USERNAME = config('ARCGIS_ONLINE_USERNAME')
