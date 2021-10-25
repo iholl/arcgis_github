@@ -3,4 +3,4 @@
 /workspace.xml
 
 # local env files
-.env
+./env/
