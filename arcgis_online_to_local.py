@@ -8,40 +8,6 @@ import shutil
 # log into arcgis online
 
 # list of feature services to download from arcgis online
-harvest_check_in_lion_18_19 = '6ed59d8cd8da45db90d4878164405abd'
-harvest_check_in_bighorn_18_19 = 'e08ff9fa0cf240438572b297f60a803f'
-harvest_check_in_19_20 = 'c7b2c0986d5449fabd4f28543c28792b'
-harvest_check_in_19_20_v2 = '88037ece957c4f8681d2677d073402c1'
-harvest_check_in = '2296745b20234d7fa4fb5efca9ee91e3'
-
-upland_game = 'e9b8f1ae1e0240ab99c6151d2dfef7ab'
-
-black_bear_mortality = 'e5078c364fe745d2a0dfcf402947ab41'
-
-aml = '5055d4e4f88a4e2d88c9cead876c6da7'
-
-big_game_tissue = 'abbd07ffb6ac48f882135fbf84005000'
-
-dixie_valley_toad = 'ce2e501a548a495497418d60816256c6'
-
-contact_log = '9aaf7a54104849f19628f94a67d2af4a'
-hours_log = '07219e147e93492eadd8214fc798139b'
-
-cso_surveys = 'd1c20b188a324cf38bbafe62578191ac'
-
-toad_crm_10 = 'bb5102d6e82745ad98d6656a1ef117e1'
-toad_grid_cell = '7dfc7792741241e9831106b0d8474fe4'
-toad_roving = '7c90b34620aa462e9b0fa367ebfaba11'
-
-radio_collar = 'c55925549d704c228c7cd2677fea2623'
-
-road_cruising = 'ad5f037175f24e8e923e9353a6930787'
-
-sage_grouse_19_20 = 'f2471d58998b47058c59624990ea230d'
-sage_grouse_v1 = 'f25feb4699004073861d03678782dbf6'
-sage_grouse = '335f97205f35466fba192fe5c02d4870'
-
-winter_raptor = '8728c607a7064c7a9a47793d3bd03cd2'
 
 data_item = [
 	harvest_check_in_lion_18_19, 
